@@ -5,7 +5,7 @@ The classifier, named ProfLogit,
 maximizes the EMPCS in the training step using a genetic algorithm, where
 ProfLogit's interior model structure resembles a lasso-regularized logistic model.
 
-This code is written on top of the code already existing which was written by E. Stripling (https://github.com/estripling/proflogit) with the purpose of applying the ProfLogit model on Credit Scoring. The EMP for churn is adapted to the EMP for Credit Scoring and by consequence a binary classification of clients is done here based on whether they default or not.
+This code is written on top of the code already existing which was written by E. Stripling (https://github.com/estripling/proflogit) with the purpose of applying the ProfLogit model on Credit Scoring. The EMP for churn is adapted to the EMP for Credit Scoring and by consequence a binary classification of clients is done here based on whether they default or not. Furthermore ProfLogit is compared to a logistic regression and decision tree model, the code of these models is also added to this repository.
 
 The accompanied paper entitled "*Profit Maximizing Logistic Model for Customer
 Churn Prediction Using Genetic Algorithms*"
